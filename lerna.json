@@ -1,9 +1,15 @@
 {
   "packages": [
-    "packages/*",
-    "docs"
+    "./packages/*",
+    "./docs",
+    "./server",
+    "./web",
+    "./runtimes/nodejs",
+    "./cli",
+    "./services/*",
+    "./e2e"
   ],
-  "version": "0.8.13",
+  "version": "1.0.0",
   "command": {
     "publish": {
       "ignoreChanges": [

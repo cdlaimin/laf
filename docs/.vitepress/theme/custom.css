@@ -1,9 +1,21 @@
-:root {
-  --vp-c-brand: #646cff;
-  --vp-c-brand-light: #747bff;
-  --vp-c-brand-dark: #323cf7
+.VPSidebar::-webkit-scrollbar {
+  display: none;
 }
 
-.inline img {
-  display: inline;
+/* 
+.VPDocAside .outline-link {
+  color: rgb(6, 63, 148);
 }
+
+.VPDocAside .outline-link {
+  font-size: 14px;
+}
+
+.VPDocAside .outline-link.active {
+  color: rgb(82, 7, 234);
+}
+
+
+.VPDocAside .outline-link:hover {
+  color: rgb(82, 7, 234);
+} */

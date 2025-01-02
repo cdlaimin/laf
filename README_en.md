@@ -6,12 +6,12 @@
   </p>
 
   <p>
-    
+  
   [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/labring/laf)
   [![](https://img.shields.io/docker/pulls/lafyun/system-server)](https://hub.docker.com/r/lafyun/system-server)
   ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white)
-  [![Website](https://img.shields.io/website?url=https%3A%2F%2Fdocs.lafyun.com&logo=Postwoman)](https://docs.lafyun.com/)
-  <a href="https://oss.lafyun.com/wofnib-image/2022-04-22-14-21-MRJH9o.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E7%BE%A4-2000%2B-brightgreen"></a>
+  [![Website](https://img.shields.io/website?url=https%3A%2F%2Flaf.dev&logo=Postwoman)](https://laf.dev/)
+  <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E7%BE%A4-2000%2B-brightgreen"></a>
 
   </p>
 </div>
@@ -20,160 +20,73 @@
 
 > English | [中文](README.md)
 
+## 🚀 Quick Start
+
+[Build your own ChatGPT in three minutes (from development to deployment)](https://icloudnative.io/posts/build-chatgpt-web-using-laf/)  
+
+## 🖥 Online experience
+
+🎉 [laf.dev](https://laf.dev) Free experience ` laf ` cloud development.
+
 ## 👀 What is `laf`
 
-- laf is a cloud-native development platform
-- laf is an open-source BaaS platform（Backend as a Service)
-- laf is an out-of-the-box serverless platform.
-- laf is an one-stop-shop for all your cloud-native development needs:
-  - Cloud Function
-  - Cloud Datastore
-  - Cloud Storage
-  - API Gateway
-  - _And MORE!_
-- laf can be the open-source alternative to **Firebase**.
-- laf can be the self-hosted and automatically configured alternative to **AWS** with all its cloud native capabilities and so much more!
+`laf` is an open-source cloud development platform that offers ready-to-use application resources such as cloud functions, cloud databases, and cloud storage. It allows developers to focus on business development without the need to tinker with servers, enabling them to quickly unleash their creativity.
 
-[`laf`](https://github.com/labring/laf) provides **teams of any sizes** with a single, unified cloud-native development platform **at any time** with almost **zero cost**!
+![dev](https://sif268-laf-image.oss.laf.dev/dev.png)
 
-## 🎉 What does `laf` provide
 
-- **Application Management**
-  - deploy/start/stop your application within seconds. There's no need to configure anything!
-- **Cloud Function**
-  - run your code in the cloud zero extra cost.
-- **Cloud Database**
-  - out-of-the-box DB service for your applications.
-- **Cloud Storage**
-  - easy-to-use storage service that are **compatible with AWS S3** and more.
-- **WebIDE**
-  - a cloud-native IDE for your code with code-linting, formatting and auto completion.
-- **Static Site Hosting**
-  - only one click to deploy your static sites, no more **Nginx** configuration!
-- **Client DB**
-  - Supports **"direct" access** from front-end client to your cloud database through [laf-client-sdk](https://github.com/labring/laf/tree/main/packages/client-sdk) with fine-grained access control.
-  - Speed up your development and **no more naive CRUD**!
-- **WebSocket**
-  - Built-in support for WebSocket, everything you need is included!
+## 🎉 Features of `laf`
 
-### Some Screen Shots of `laf` Dashboard:
+- Cloud Functions
+- Cloud Database
+- Cloud Storage
+- WebIDE, Write code like writing a blog
+- Web-hosting
+- WebSocket support
 
-<table>
-  <tr>
-      <td width="50%" align="center"><b>Cloud Function</b></td>
-      <td width="50%" align="center"><b>Cloud Storage</b></td>
-  </tr>
-  <tr>
-     <td><img src="https://9b069020-06e3-4949-83d9-992a52ca99fe.lafyun.com/file/laf_preview_screens/ide.png"/></td>
-     <td><img src="https://9b069020-06e3-4949-83d9-992a52ca99fe.lafyun.com/file/laf_preview_screens/files.png"/></td>
-  </tr>
-  <tr>
-      <td width="50%" align="center"><b>Cloud Database</b></td>
-      <td width="50%" align="center"><b>Application Management</b></td>
-  </tr>
-  <tr>
-     <td><img src="https://9b069020-06e3-4949-83d9-992a52ca99fe.lafyun.com/file/laf_preview_screens/collection.png"/></td>
-     <td><img src="https://9b069020-06e3-4949-83d9-992a52ca99fe.lafyun.com/file/laf_preview_screens/apps.png"/></td>
-  </tr>
-</table>
 
-## 👨‍💻 Who is `laf` for?
+## 👨‍💻 Who uses `laf`?
 
-1. **Front-end Developer** + `laf` = Full Stack Developer
-   - `laf` privided [laf-client-sdk](https://github.com/labring/laf/tree/main/packages/client-sdk) for front-end which can be used in any JS runtime.
-   - `laf` cloud function are developed using JS/TS, no need to learn any other languages.
-   - `laf` provides static site hosting in one click, no more worries about server config, nginx, domain name, etc.
-   - `laf` will provides more SDK in the future (Flutter/Android/iOS) to give you a unified experience on any platforms.
-2. **Front-end Developer**, free you from all the trivia and configs, focus on the code itself!
+1. Front-end developers + `laf` = Full-stack developers, transforming front-end developers into true full-stack developers.
 
-   - `laf` saves you from tedious server admin/operation works.
-   - `laf` saves you from boring `nginx` configs.
-   - `laf` saves you from the hassle of manual DB deployment, security config.
-   - `laf` saves you from the torment of 「10 min coding, 10 hour deploying」.
-   - `laf` lets you inspect logs in the browser in any places at any time. No more SSH to the server!
-   - `laf` lets you「write functions like blog」, just code and click to deploy!
+   - `laf` provides [laf-client-sdk](https://github.com/labring/laf/tree/main/packages/client-sdk) for front-end developers, suitable for any JavaScript runtime environment.
+   - `laf` allows front-end and back-end code to be developed using JavaScript/TypeScript, eliminating the barrier between them and enabling a quick learning curve.
+   - `laf` offers static website hosting, allowing direct deployment of front-end built web pages without the need for server configuration, nginx, domains, etc.
+   - `laf` will provide SDKs for various client platforms (Flutter/Android/iOS, etc.) in the future, offering backend development services and a consistent development experience for all client developers.
 
-3. **Cloud Native Developer**, get a more powerful, user-friendly and flexiable platform. No more contraints from **AWS** or **GCP**!
+2. Back-end developers can free themselves from trivial tasks and focus on the core business, enhancing development efficiency.
 
-   - You can provide full source code to your clients which enables them to deploy the application in **any** environment.
-   - You can modify/customize your cloud platform, `laf` is open-sourced and built with customization in mind.
+   - `laf` saves effort on server maintenance, multi-environment deployment, and management.
+   - `laf` eliminates the need for configuration and debugging of nginx.
+   - `laf` eliminates the repetitive work of manually deploying databases and addressing security concerns for each project.
+   - `laf` eliminates the tedious iterative experience of "making changes and taking half a day to publish."
+   - `laf` allows you to view function execution logs anytime, anywhere on the web without the need to connect to servers or spend time searching.
+   - `laf` enables you to "write a function like writing a blog," making it easy to publish and invoke functions effortlessly.
 
-4. **Node.js Developer**，`laf` is developed using `Node.js`, you can treat it as another **Node.js** framwork/platform.
+3. Cloud development users, if you are a user of other cloud development platforms, `laf` not only provides a more powerful and fast development experience but also prevents vendor lock-in.
 
-   - You can write/debug/deploy your cloud functions in the browser with minimal effort.
-   - You can inspect/search logs with no configuration needed.
-   - No more hassle of DB/Storage/Nginx configuration, deploy your application at any time.
-   - Make any `Node.js` code cloud-native (a crawler, a automatic script, etc), write code like writing a blog!
+   - You can deliver source code to clients and privately deploy a `laf` + your cloud development application. Closed-source cloud development services cannot deliver independently runnable source code.
+   - You can deploy your own product to your servers at any time according to future needs, as `laf` is open-source and free.
+   - You can even modify and customize your own cloud development platform, as `laf` is open-source and highly extensible.
 
-5. **Individual Developer & Startup Team**, reduce cost and start fast!
-   - Reduce development time, shorten your product verfication cycle.
-   - Be agile and adpat to the changing market.
-   - Focus on your product, start fast and fail fast.
-   - One developer + `laf` = A whole team.
+4. Independent developers and startup teams can save costs, start quickly, and focus on their business.
+
+   - Reduce the project development process, start quickly, and shorten the product validation cycle.
+   - Greatly improve iteration speed, adapt to changes at any time, and release updates quickly.
+   - Focus on the core business of the product, quickly launch Minimum Viable Products (MVP), and validate the product and market rapidly.
+   - One person + `laf` = a team.
 
 > life is short, you need laf:)
 
-## 💥 How can `laf` be used?
+## 🎉 Self-hosted Deployment
 
-> `laf` is a back-end development platform which can theoretically support any kinds of application!
+[Deployment](./deploy/README.md)
 
-1. Develop Android, iOS or Web Application:
+## 🏘️ Community Groups
 
-   - Use Cloud Function/DB/Storage for your product.
-   - Deploy your admin front-end in `laf` with on click.
-   - User Cloud Function for payment, authentication, hot-update, etc.
-
-2. Deploy blog or homepage
-
-   - For static blogs generated by vuepress/hexo/hugo, you can deploy them with `laf` in one click. (See [laf-cli](https://github.com/labring/laf-cli) for more info)
-   - Use Cloud Function to handle comments, likes, statistics, etc.
-   - Use Cloud Function to support features like online course/voting/survey/etc.
-   - Use Cloud Function for crawling/live-feed/etc.
-   - Use Cloud Storage for video/images/etc.
-
-3. Enterprise Informatization: Deploy your own cloud platform.
-
-   - Fast development/deployment of any internal systems.
-   - Multi-tenancy/users/roles/apps support, segragate or connect different sectors/teams/apps.
-   - Take advantage of the `laf` community, use and customize existing applications, save your budget!
-   - Use free and open-source software, no litmitations, customize as you wish!
-
-4. Handy toolkit for Individual Developers
-
-   - `laf` makes any of your code cloud-native instantly.
-   - Just like writing a note in your memo, but also auto synced to cloud and accessible from anywhere.
-   - Make `laf` your notebook or "personal assitent", write a reminder app, email forwarding app, etc.
-
-5. Other
-   - Some use `laf` as a cloud drive.
-   - Some use `laf` as a logging server for collection and analyzing data.
-   - Some use `laf` as a crawler for latest news, etc.
-   - Some use `laf` as a webhook for Github, Slack, Discord, etc.
-   - Some use `laf` as a chaos-monkey for other services.
-   - ...
-
-> In the future, `lafyun.com` will have a `application market` where users can publish sample applications/templates!
-
-## 🖥 Try it now
-
-🎉 [lafyun.com](http://www.lafyun.com) is a `laf` service hosted by us, you can try `laf` for free!
-
-Independent domain names and HTTPS licenses can be applied to your applications now, develop fast, and enjoy the freedom of `laf`!
-
-## 🚀 Quick Start
-
-[develop a register/login feature within 3 minutes](./quick-start.md)
-
-## 🎉 Self-hosting
-
-[self-hosting](./deploy/README.md)
-
-## 🏘️ Community
-
-- [Wechat Group](https://oss.lafyun.com/wofnib-image/2022-04-22-14-21-MRJH9o.png)
-- [QQ Group：603059673](https://jq.qq.com/?_wv=1027&k=DdRCCiuz)
-- _More community resources will be added soon!_
+- [Discord](https://discord.gg/uWZqAwwdvy)
+- [Twitter](https://twitter.com/laf_dev)
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lafjs/laf&type=Date)](https://star-history.com/#lafjs/laf&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=labring/laf&type=Date)](https://star-history.com/#labring/laf&Date)
